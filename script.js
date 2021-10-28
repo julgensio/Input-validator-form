@@ -82,32 +82,31 @@ form.addEventListener('submit', function (e) {
 	checkPasswordMatch(password, password2);
 	checkLength(password, 6, 25);
 	checkEmail(email);
-
-	// old Code
-	// if (username.value === '') {
-	// 	console.log(username.value);
-	// 	showError(username, 'username is required');
-	// } else {
-	// 	showSuccess(username);
-	// }
-
-	// if (email.value === '') {
-	// 	showError(email, 'Email is required');
-	// } else if (!isValidEmail(email.value)) {
-	// 	showError(email, 'Email is not valid');
-	// } else {
-	// 	showSuccess(email);
-	// }
-
-	// if (password.value === '') {
-	// 	showError(password, 'Password is required');
-	// } else {
-	// 	showSuccess(password);
-	// }
-
-	// if (password.value === '') {
-	// 	showError(password, 'Password is required');
-	// } else {
-	// 	showSuccess(password);
-	// }
 });
+// old Code
+// if (username.value === '') {
+// 	console.log(username.value);
+// 	showError(username, 'username is required');
+// } else {
+// 	showSuccess(username);
+// }
+
+// if (email.value === '') {
+// 	showError(email, 'Email is required');
+// } else if (!isValidEmail(email.value)) {
+// 	showError(email, 'Email is not valid');
+// } else {
+// 	showSuccess(email);
+// }
+
+// if (password.value === '') {
+// 	showError(password, 'Password is required');
+// } else {
+// 	showSuccess(password);
+// }
+
+// if (password.value === '') {
+// 	showError(password, 'Password is required');
+// } else {
+// 	showSuccess(password);
+// }
